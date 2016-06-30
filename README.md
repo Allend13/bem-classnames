@@ -3,7 +3,7 @@
 ##What's that?
 It's a simple component, that generates glossary with BEM classnames for you from JSON tree.
 Ex.:
-`
+```
 import BEM from './bem-classnames'
 
 const component = {
@@ -22,11 +22,11 @@ const component = {
 }
 
 BEM.addBEMComponent(auctionCardBEM)
-`
+```
 
 will generate
 
-`
+```
 {
   component: 'component',
   componentHidden: 'component--hidden',
@@ -65,11 +65,11 @@ const Component = props => {
       </div>
     )
 }
-`
+```
 
 Compare to this:
 
-`
+```
 import React, { Component, PropTypes } from 'react'
 import BEM from './bem-classnames'
 
@@ -88,4 +88,4 @@ const Component = props => {
       </div>
     )
 }
-`
+```
