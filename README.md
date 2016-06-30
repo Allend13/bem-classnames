@@ -37,11 +37,11 @@ will generate
   contentArticleNew: 'component__content__article--new',
   contentArticleOld: 'component__content__article--old',
 }
-`
+```
 
 Using it in React project:
 
-`
+```
 import React, { Component, PropTypes } from 'react'
 import BEM from './bem-classnames'
 
